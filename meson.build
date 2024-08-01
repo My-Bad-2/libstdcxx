@@ -11,5 +11,5 @@ endif
 libstdcxx_dep = declare_dependency(include_directories: libstdcxx_incs)
 
 if meson.version().version_compare('>=0.54.0')
-    meson.override_dependency('libstdcxx_headers', libstdcxx_headers_dep)
+    meson.override_dependency('libstdcxx', libstdcxx_dep)
 endif
