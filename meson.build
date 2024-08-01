@@ -4,7 +4,7 @@ libstdcxx_incs = [
     include_directories('libstdc++')
 ]
 
-if get_option('arch') == "amd64"
+if get_option('arch') == 'amd64'
     libstdcxx_incs += include_directories('libstdc++/x86_64-elf')
 endif
 
