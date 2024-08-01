@@ -1,4 +1,4 @@
-project('libstdc++', 'c', 'c++',)
+project('libstdc++', 'c', 'cpp')
 
 libstdcxx_incs = [
     include_directories('libstdc++')
