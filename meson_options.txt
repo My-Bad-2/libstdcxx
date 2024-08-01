@@ -1,1 +1,1 @@
-option('arch', type: str, value: 'amd64', description: 'Currently only AMD64 is supported!')
+option('arch', type: 'string', value: 'amd64', description: 'Currently only AMD64 is supported!')
